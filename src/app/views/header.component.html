@@ -1,0 +1,33 @@
+<div class="header-container">
+    <div class="logo">
+        <img alt="main_logo" src="./assets/images/logo.png" />
+    </div>
+    <div class="navigation">
+        <ul class="navigation-menu">
+            <li class="menu-item" (click)="navigate('/')">
+                <span>Home</span>
+            </li>
+            <li class="menu-item" (click)="navigate('events')">
+                <span>Events</span>
+            </li>
+            <li class="menu-item">
+                <span>Crew</span>
+                <ul class="navigation-submenu">
+                    <li class="submenu-item" (click)="navigate('/members')">Members</li>
+                    <li class="submenu-item" (click)="navigate('/infamouswanted')">Infamous Wanted</li>
+                    <li class="submenu-item" (click)="navigate('/applytojoin')">Apply to join</li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <span>Media</span>
+                <ul class="navigation-submenu">
+                    <li class="submenu-item" (click)="navigate('/videos')">Videos</li>
+                    <li class="submenu-item" (click)="navigate('/photos')">Photos</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="registration">
+        
+    </div>
+</div>

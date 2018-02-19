@@ -1,0 +1,13 @@
+.main-content {
+    height: calc(100% - 248px);
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #c0c0c0;
+    text-align: center;
+    padding: 10px;
+}

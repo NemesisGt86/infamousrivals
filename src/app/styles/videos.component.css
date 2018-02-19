@@ -1,0 +1,24 @@
+.video-wrapper {
+    overflow: hidden;
+}
+
+.video-wrapper .video-title-wrapper {
+    margin-bottom: 15px;
+}
+
+.video-wrapper .video-title-wrapper .title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block;
+}
+
+.video-wrapper .video-title-wrapper .sub-title {
+    color: #C0C0C0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: block;
+}

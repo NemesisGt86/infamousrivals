@@ -1,0 +1,12 @@
+<div class="video-wrapper" *ngFor="let video of _youtubeVideos">
+    <div class="video-title-wrapper">
+        <span class="title">{{ video.title }}</span>
+        <span class="sub-title">{{ video.createdDate }}</span>
+    </div>
+    <div class="video-url">
+        <iframe width="{{ video.width }}" height="{{ video.height }}" [src]="video.getTrustedUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="video-description">
+        
+    </div>
+</div>
