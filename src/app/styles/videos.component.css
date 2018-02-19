@@ -18,7 +18,17 @@
 .video-wrapper .video-title-wrapper .sub-title {
     color: #C0C0C0;
     width: 100%;
-    font-weight: bold;
     font-size: 0.7rem;
     display: block;
+}
+
+.video-wrapper .video-url {
+    width: 20%;
+    float: left;
+}
+
+.video-wrapper .video-description {
+    width: calc(80% - 20px);
+    float: left;
+    padding-left: 20px;
 }

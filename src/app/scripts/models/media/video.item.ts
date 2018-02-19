@@ -4,21 +4,19 @@ export class VideoItem {
     private _sanitizer: DomSanitizer;
 
     public title: string;
+    public description: string;
     public createdDate: Date;
     public url: string;
-    public width: number;
-    public height: number;
 
-    constructor(sanitizer: DomSanitizer, title: string, url: string, createdDate: Date, width: number, height: number) {
+    constructor(sanitizer: DomSanitizer, title: string, description: string, url: string, createdDate: Date) {
         var self: VideoItem = this;
 
         self._sanitizer = sanitizer;
 
         self.title = title;
+        self.description = description;
         self.createdDate = createdDate;
         self.url = url;
-        self.width = width;
-        self.height = height;
     }
 
     public getTrustedUrl(): SafeUrl {
