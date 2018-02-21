@@ -3,10 +3,12 @@
         <span class="title">{{ video.title }}</span>
         <span class="sub-title">{{ video.createdDate | date: 'EEEE, MMMM d, y' }}</span>
     </div>
-    <div class="video-url">
-        <iframe [src]="video.getTrustedUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    <div class="video-description">
-        {{ video.description }}
+    <div class="video-detail-wrapper">
+        <div class="video-url">
+            <iframe [src]="video.getTrustedUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="video-description">
+            {{ video.description }}
+        </div>
     </div>
 </div>

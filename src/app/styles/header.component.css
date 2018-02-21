@@ -1,7 +1,8 @@
 .header-container {
     height: 120px;
     position: relative;
-
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.2) !important;
 }
 
 .header-container .logo img {
@@ -9,6 +10,7 @@
     position: absolute;
     margin-left: 20px;
     margin-top: 10px;
+    top: -35px;
 }
 
 .header-container .navigation .navigation-menu {
@@ -32,8 +34,8 @@
 }
 
 .header-container .navigation .navigation-menu .menu-item:hover     {
-    background-color: rgba(1, 0, 0, 0.1);
-    border-bottom: 3px solid #c0c0c0;
+    background-color: rgba(222, 40, 40, 0.2);
+    border-bottom: 3px solid #DE2828;
     margin-bottom: 0px;
     font-weight: bold;
 }
@@ -53,19 +55,24 @@
     text-align: center;
     background-color: rgba(1, 0, 0, 0.1);
     top: 38px;
-    border-bottom: 3px solid #c0c0c0;
+    border-bottom: 3px solid silver;
     font-weight: normal;
+    background-color: #303133;
+
+    -webkit-box-shadow: 0px 11px 45px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 45px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 45px 0px rgba(0,0,0,0.75);
 }
 
 .header-container .navigation .navigation-menu .menu-item .navigation-submenu .submenu-item {
     padding: 5px;
 }
 
-    .header-container .navigation .navigation-menu .menu-item .navigation-submenu .submenu-item:hover {
-        background-color: rgba(255, 0, 0, 0.2);
+.header-container .navigation .navigation-menu .menu-item .navigation-submenu .submenu-item:hover {
+    background-color: rgba(222, 40, 40, 0.2);
 }
 
 .header-container .navigation .navigation-menu .menu-item:hover > .navigation-submenu {
-    margin-top: 3px;
+    margin-top: 1px;
     display: block;
 }

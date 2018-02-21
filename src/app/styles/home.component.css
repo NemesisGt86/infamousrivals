@@ -1,13 +1,14 @@
 .main-content {
-    height: calc(100% - 248px);
+    height: calc(100% - 236px);
     overflow: hidden;
     overflow-y: auto;
-    margin-top: 70px;
-    padding: 10px;
+    margin: 70px 20px 20px 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2) !important;
 }
 
 .footer {
-    background-color: #c0c0c0;
+    background-color: rgba(0,0,0,0.2) !important;
     text-align: center;
     padding: 10px;
 }

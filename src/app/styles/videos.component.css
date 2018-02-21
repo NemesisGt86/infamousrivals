@@ -1,5 +1,8 @@
 .video-wrapper {
     overflow: hidden;
+    padding: 10px;
+    border: 1px solid silver;
+    margin-bottom: 20px;
 }
 
 .video-wrapper .video-title-wrapper {
@@ -22,13 +25,18 @@
     display: block;
 }
 
-.video-wrapper .video-url {
-    width: 20%;
-    float: left;
+.video-wrapper .video-detail-wrapper {
+    display: table;
 }
 
-.video-wrapper .video-description {
-    width: calc(80% - 20px);
-    float: left;
+.video-wrapper .video-detail-wrapper .video-url {
+    width: 300px;
+    display: table-cell;
+}
+
+.video-wrapper .video-detail-wrapper .video-description {
+    width: calc(100% - 330px);
     padding-left: 20px;
+    display: table-cell;
+    vertical-align: top;
 }
