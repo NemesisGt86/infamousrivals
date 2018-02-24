@@ -1,0 +1,48 @@
+.account-wrapper .header-links {
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+}
+
+.account-wrapper .header-links .signin,
+.account-wrapper .header-links .register {
+    float: left;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.account-wrapper .header-links .signin:hover,
+.account-wrapper .header-links .register:hover {
+    color: rgb(222, 40, 40);
+}
+
+.account-wrapper .content {
+    height: 140px;
+}
+
+.account-wrapper .button-wrapper {
+    width: 204px;
+    margin: 0 auto;
+}
+
+.account-wrapper .thridparty-signup {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+}
+
+.account-wrapper .thridparty-signup img {
+    width: 100px;
+    height: 100px;
+}
+
+.account-wrapper .thridparty-signup span {
+    color: silver;
+}

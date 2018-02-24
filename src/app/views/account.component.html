@@ -1,0 +1,23 @@
+<div class="account-wrapper">
+    <div class="header-links">
+        <div class="signin" (click)="togglePopup()">Sign In</div>
+    </div>
+    <div class="overlay" [style.visibility]="_showSigninPopup ? 'visible' : 'hidden'">
+        <div class="popup" [style.display]="_showSigninPopup ? 'block' : 'none'">
+            <h2>Sign in to Infamous Rivals</h2>
+            <div class="close" (click)="togglePopup()">&times;</div>
+            <div class="content">
+                <div class="button-wrapper">
+                    <button class="thridparty-signup" (click)="signIn('facebook')">
+                        <img alt="facebook logo" src="./assets/images/thirdparty logos/Facebook-logo.png" />
+                        <span>Facebook Account</span>
+                    </button>
+                    <button class="thridparty-signup" (click)="signIn('google')">
+                        <img alt="google logo" src="./assets/images/thirdparty logos/Google-logo.png" />
+                        <span>Google Account</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div>

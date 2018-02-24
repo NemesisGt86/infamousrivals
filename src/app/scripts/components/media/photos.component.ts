@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { GalleryModule } from  '@ngx-gallery/core';
+import { GalleryItem, ImageItem } from '@ngx-gallery/core';
 
 @Component({
   selector: 'photos',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['../../../styles/photos.component.css']
 })
 export class PhotosComponent {
-  title = 'photo';
+    //https://murhafsousli.github.io/ngx-gallery/#/basic
+  private _galleryItems: Array<GalleryItem>;
 }
